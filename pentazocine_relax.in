@@ -31,16 +31,18 @@
 /
 
 ATOMIC_SPECIES
-O  15.9990 O.pbesol-n-kjpaw_psl.1.0.0.UPF
-N  14.0070 N.pbesol-n-kjpaw_psl.1.0.0.UPF
-C  12.0110 C.pbesol-n-kjpaw_psl.1.0.0.UPF
-H  1.0080 H.pbesol-n-kjpaw_psl.1.0.0.UPF
+O  15.9990 O.pbe-n-kjpaw_psl.1.0.0.UPF
+N  14.0070 N.pbe-n-kjpaw_psl.1.0.0.UPF
+C  12.0110 C.pbe-n-kjpaw_psl.1.0.0.UPF
+H  1.0080 H.pbe-n-kjpaw_psl.1.0.0.UPF
 
 CELL_PARAMETERS angstrom
    31.259200   0.000000   0.000000
     0.000000  26.824300   0.000000
     0.000000   0.000000  25.377300
 
+K_POINTS automatic
+1 1 1 0 0 0
 ATOMIC_POSITIONS angstrom
 O   10.303900  10.763800  11.588700
 N   16.303500  14.078800  12.895100
@@ -91,5 +93,3 @@ H   19.257100  10.526700  13.840200
 H   18.899600  10.010500  12.184800
 H   17.648400  10.783800  13.117500
 
-K_POINTS automatic
-1 1 1 0 0 0
